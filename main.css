@@ -246,12 +246,12 @@
       margin-top: 2.5rem;
       font-size: 1.5rem;
       text-transform: uppercase;
-      color: #D3F2F2;
+      color: #000000;
       transition: color 650ms;
   }
 
   .portfolio-description .cta:hover{
-      color: #D3F2F2;
+      color: #000000;
   }
   /*portfolio end*/
 
