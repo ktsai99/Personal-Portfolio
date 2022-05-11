@@ -1,0 +1,210 @@
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Kevin Tsai</title>
+  </head>
+  
+  <body>
+    <nav class="navbar" >
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="#landing-text" class="nav-link">
+            <span class="link-text logo-text">Home</span>
+            <svg class="bi bi-chevron-double-right" width="4em" height="4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#about" class="nav-link">
+            <svg class="bi bi-person-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <span class="link-text">About</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">
+            <svg class="bi bi-collection-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <rect width="16" height="10" rx="1.5" transform="matrix(1 0 0 -1 0 14.5)"/>
+                <path fill-rule="evenodd" d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
+            </svg>
+            
+            <span class="link-text">Skills</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">
+            <svg class="bi bi-briefcase-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+            </svg>
+            <span class="link-text">Work</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">
+            <svg class="bi bi-envelope-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <span class="link-text">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="landing-text" id="landing-text" style="overflow: hidden; ">
+        <div class="logo-img" id="logo-img">
+          <img src="./Images/logo.PNG" alt="logo">
+        </div>
+      </div>
+
+      <section class="about" id="about" data-aos="fade-in" data-aos-delay="150">
+        <div class="container">
+            <div class="profile-img" >
+                <img src="./Images/profile.jpg">
+            </div>
+
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                    <p>
+                      My name is Kevin Tsai. I am currently a senior majoring in Information Science at The University of Maryland, College Park. I am on track to graduate in the coming May of Spring 2022. I am a highly motivated problem solver who wants to be challenged in a past-faced work environment. I am passionate about learning new technologies. In addition to the software development course work, I have taken a keen interest in cloud computing, namely AWS cloud technologies. I have completed AWS Cloud Practitioner Certification and am on track to complete the AWS Solution Architect Associate certificate before the end of this year. In terms of practical work experience, I have held multiple part-time jobs throughout my college career. Most recently, I have completed a 15-month engineering internship at Kaleyra Inc. where I made valuable contributions in several key engineering and operation projects. My next stop will be in Boston where I will be working as Site reliability Engineer for Mass Mutual.
+                    </p>
+                    <!-- Social Media stuff -->
+            </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills" data-aos="fade-in" data-aos-delay="150">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+                <h6>What my skills are</h6>
+            </div>
+            
+              <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Programming Languages</h1>
+                    <p>Highly skilled in Java, Python, sql , 
+                      javascript, html5, css, 
+                      yaml, groovy, bash</p>
+                </div>
+
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Services</h1>
+                    <p>Experienced in AWS, 
+                      datadog, freshdesk , 
+                      klipfolio, pagerduty,
+                      bitbucket, jira, 
+                      opsgenie</p>
+                </div>
+
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Technologies</h1>
+                    <p>well versed in IOS, 
+                      linux , jenkins, 
+                      Ansible, Terraform/
+                      terragrunt 
+                      development</p>
+                </div>
+              </div>      
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio" data-aos="fade-in" data-aos-delay="150">
+
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>View some of my works</h6>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right">
+                    <h6>Web development</h6>
+                    <h1>To-do list</h1>
+                    <p>TO do list made with HTML, CSS, Java Script and usage of local storage to remember items</p>
+                    <a href="./todo/todo.html" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img ">
+                    <img src="./Images/todo.png">
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="./Images/calculator.png"> 
+                </div>
+
+                <div class="portfolio-description">
+                    <h6>Web Development</h6>
+                    <h1>Web calculator</h1>
+                    <p>A web calculator made with HTML, CSS and Java Script</p>
+                    <a href="./calculator/calculator.html" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <section class="contact" id="contact" data-aos="fade-in" data-aos-delay="150">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact me</h1>
+                <h6>let's work together</h6>
+            </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+      </section>
+
+      <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+            <p>&copy; 2022 Kevin Tsai</p>
+        </div>
+      </footer>
+    </header>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+  </html>
